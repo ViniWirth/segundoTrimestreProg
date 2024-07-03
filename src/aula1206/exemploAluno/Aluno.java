@@ -6,6 +6,4 @@ public class Aluno {
     String nome;
     float notaUm;
     float notaDois;
-
-
 }
