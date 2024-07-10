@@ -14,7 +14,7 @@ public class Principal
         {
             System.out.println("Selecione uma opção:");
             System.out.println("1 - Criar conta corrente");
-            System.out.println("2 - Criar conta poupanca");
+            System.out.println("2 - Criar conta poupança");
             System.out.println("3 - Consultar saldo");
             System.out.println("4 - Depositar");
             System.out.println("5 - Sacar");
