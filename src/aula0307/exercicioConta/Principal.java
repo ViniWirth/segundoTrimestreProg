@@ -18,7 +18,7 @@ public class Principal
             System.out.println("3 - Consultar saldo");
             System.out.println("4 - Depositar");
             System.out.println("5 - Sacar");
-            System.out.println("6 - Listar todas as contas");
+            System.out.println("6 - Listar contas");
             System.out.println("7 - Sair");
             System.out.print(": ");
             opcao = ler.next();
