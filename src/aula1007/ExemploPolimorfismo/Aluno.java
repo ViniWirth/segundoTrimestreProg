@@ -13,6 +13,6 @@ public class Aluno extends Pessoa{
 
     @Override
     public String obterDados(){
-        return "Nome: "+getNome()+" "+getSobrenome()+" \nMatricula: "+matricula;
+        return "Nome: "+getNome()+" "+getSobrenome()+" "+matricula;
     }
 }

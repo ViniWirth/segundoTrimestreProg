@@ -1,6 +1,8 @@
-package aula1007.ExemploPolimorfismo;
+package aula1007.exemploArquivo;
 
-public class Pessoa {
+import java.io.Serializable;
+
+public class Pessoa implements Serializable {
     private String nome;
     private String sobrenome;
 
@@ -20,13 +22,8 @@ public class Pessoa {
         this.sobrenome = sobrenome;
     }
 
-    public String obterDados(){
-        return "Nome: "+nome+" "+sobrenome;
-    }
-
-    //é Override pois está manipulando o método que está no codigo fonte do java
-    @Override
     public String toString(){
-        return obterDados();
-    }
+        return "Nome: "+nome+" "+sobrenome;
+}
+
 }
